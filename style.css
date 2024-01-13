@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Gotu", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #031b37;
+    color: aqua;
+}
+
+#AppBody{
+    position: relative;
+    width: 550px;
+    height: 650px;
+    border-radius: 30px;
+    background: #031b37;
+    padding: 30px 50px;
+    box-shadow: 25px 25px 75px rgba(0,0,0, 0.25),
+    10px 10px 70px rgba(0,0,0, 0.25),
+    inset 5px 5px 10px rgba(0,0,0, 0.5),
+    inset 5px 5px 20px rgba(255,255,255, 0.2),
+    inset -5px -5px 15px rgba(0,0,0, 0.75);
+    
+
+}
+#calBIrth{
+    background: #071729;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 30%;
+    margin: 15px auto;
+    margin-top: 25px;
+    color: aqua;
+
+}
+
+#AppName{
+    margin: 0 0 20px 0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border-color: aqua;
+}
+
+#showAge {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: transparent;
+    width: 100%;
+    margin: 15px auto;
+    margin-top: 20px;
+    text-align: center;    
+}
+
+p{
+    font-size: 20px;
+    margin-top: 25px;
+    color: aliceblue;
+    text-align: left;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    border: 0;
+    padding: 10px 20px;
+    font-size:20px ;
+    border-radius: 50px;
+    margin: 5px;
+    margin-left: 30px;
+    
+}
+#resBIrth{
+    background: #071729;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    width: 30%;
+    margin: 15px auto;
+    margin-top: 25px;
+    color: rgb(224, 17, 17);
+}

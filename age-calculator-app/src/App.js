@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Import the default App.css or your custom styles
+import './App.css'; 
 
 function App() {
   const [birthDate, setBirthDate] = useState('');
@@ -110,6 +110,7 @@ function App() {
         </button>
         <p
           id="showAge"
+          
           dangerouslySetInnerHTML={{ __html: ageResult }}
         ></p>
       </form>
